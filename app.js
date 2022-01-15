@@ -1,15 +1,15 @@
-var profileDataArgs = process.argv.slice(2, process.argv.length);
+ var profileDataArgs = process.argv.slice(2, process.argv.length);
 console.log(profileDataArgs);
 
-const printProfileData = (profileDataArr) => {
-    for (let i=0; i<profileDataArr.length; i++) {
-        console.log(profileDataArr[i])
-    }
+// const printProfileData = (profileDataArr) => {
+//     for (let i=0; i<profileDataArr.length; i++) {
+//         console.log(profileDataArr[i])
+//     }
    
 
-console.log('================');
+// console.log('================');
 
-profileDataArr.forEach(profileItem =>
-    console.log(profileItem))
-}
-printProfileData(profileDataArgs)
+// profileDataArr.forEach(profileItem =>
+//     console.log(profileItem))
+// }
+// printProfileData(profileDataArgs)
