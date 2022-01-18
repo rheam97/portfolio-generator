@@ -38,7 +38,7 @@ const promptProject = portfolioData => {
     =================
     `);
     if (!portfolioData.projects) {
-        portfolioData = [];
+        portfolioData.projects = [];
        }
         return inquirer.prompt([
         {
@@ -75,6 +75,7 @@ const promptProject = portfolioData => {
             default: false
           }
     ]).then(projectData => {
+        console.log(portfolioData)
          portfolioData.projects.push(projectData)
           if(projectData.confirmAddProject){
                 return promptProject(portfolioData)
