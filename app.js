@@ -84,7 +84,7 @@ const promptProject = portfolioData => {
            }
     })
 }
-promptUser().then(answers=>console.log(answers))
+promptUser()
 .then(promptProject)
 .then(portfolioData => console.log(portfolioData))
 
