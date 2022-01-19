@@ -11,7 +11,7 @@ Web portfolio page including Index HTML with css styling made on command-line wi
 
 <a name= "usage"></a>
 ## Usage
-To launch: 
+To launch, input the following in the command line: 
 ```
 node app
 ```
