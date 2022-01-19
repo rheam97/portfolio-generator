@@ -17,4 +17,4 @@ The following video shows the web application's functionality.
 <a name= "URL"></a>
 ## URLs
 
-* The URL of the GitHub repository: 
+* The URL of the GitHub repository: https://github.com/rheam97/portfolio-generator.git
