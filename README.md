@@ -10,7 +10,11 @@
 Web portfolio page including Index HTML with css styling made on command-line with node.js.
 
 <a name= "usage"></a>
-
+## Usage
+To launch: 
+```
+node app
+```
 The following video shows the web application's functionality.
 
 
